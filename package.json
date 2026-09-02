@@ -1,0 +1,20 @@
+{
+  "name": "salon-management-api-root",
+  "version": "1.0.0",
+  "description": "Salon Management REST API Root Wrapper",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "cd Raj_Rasal_150096725066 && npm install",
+    "build": "cd Raj_Rasal_150096725066 && npm install",
+    "start": "node server.js",
+    "seed": "cd Raj_Rasal_150096725066 && node seed.js",
+    "dev": "cd Raj_Rasal_150096725066 && npm run dev"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "socket.io": "^4.8.1"
+  }
+}
